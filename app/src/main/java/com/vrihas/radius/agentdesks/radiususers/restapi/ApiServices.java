@@ -8,6 +8,6 @@ import retrofit2.http.GET;
 public interface ApiServices {
 
     @GET(AppConstants.REQUEST_USER_LIST)
-    Call<UserResponse> getEventsResponse();
+    Call<UserResponse> getUserResponse();
 
 }

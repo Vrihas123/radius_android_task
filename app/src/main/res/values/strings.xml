@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">RadiusUsers</string>
+
+    <string name="user_list_title">List of Users</string>
+    <string name="sample_name">Name</string>
+    <string name="sample_phone">9876543210</string>
+    <string name="sample_cell">9876543210</string>
+    <string name="sample_email">test@test.com</string>
+    <string name="sample_age">Age : 21</string>
+    <string name="sample_gender">Female</string>
+    <string name="sample_address">Address :</string>
+    <string name="sample_street">street</string>
+    <string name="sample_city">city</string>
+    <string name="sample_state">state</string>
+    <string name="more">more</string>
+    <string name="failure_msg">Something went wrong. Please try again later.</string>
+    <string name="network_issue_title">Network Issue</string>
+    <string name="network_issue_details">No internet connection. Please try again.</string>
+    <string name="retry">Retry</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -4,17 +4,14 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
-import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class UserResponse implements Serializable {
+public class Dob implements Serializable {
 
-    @SerializedName("results")
-    private List<UserData> userDataList;
+    @SerializedName("age")
+    private String age;
 
-    public List<UserData> getUserDataList() {
-        return userDataList;
+    public String getAge() {
+        return age;
     }
-
-
 }
